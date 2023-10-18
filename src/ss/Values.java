@@ -2,20 +2,20 @@ package ss;
 
 public class Values {
 	
-	public int getSum(int [] nums) {
+	public static int getSum(int [] nums) {
 		return 0;
 		
 	}
 	
-	public int getmax(int[] nums) {
+	public static int getmax(int[] nums) {
 		return 0;
 	}
 	
-	public int getMin(int [] nums) {
+	public static int getMin(int [] nums) {
 		return 0;
 	}
 	
-	public int getRange(int [] nums) {
+	public static int getRange(int [] nums) {
 		return 0;
 	}
 
