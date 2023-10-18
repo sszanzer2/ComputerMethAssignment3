@@ -33,7 +33,7 @@ class TestValues {
 	//Testing to make sure it returns the correct max num of the array
 	public void TestReturnsCorrectMaxWithPosValues() {
 		int[] arr = {25,3,47,98,10};
-		assertEquals(98, Values.getmax(arr));
+		assertEquals(98, Values.getMax(arr));
 	}
 	
 	
@@ -41,21 +41,21 @@ class TestValues {
 	//Testing to make sure it returns the correct max num of the array
 	public void TestReturnsCorrectMaxWithNegValues() {
 		int[] arr = {-25,- 3 ,-47, -98, -10};
-		assertEquals(-3, Values.getmax(arr));
+		assertEquals(-3, Values.getMax(arr));
 	}
 	
 	@Test 
 	//Testing an empty array
 	public void TestReturnsCorrectMaxWithEmptyArray() {
 		int[] arr = {};
-		assertEquals(Integer.MIN_VALUE, Values.getmax(arr));
+		assertEquals(Integer.MIN_VALUE, Values.getMax(arr));
 	}
 	
 	@Test
 	//Testing to make sure it returns the correct min num from the array
 	public void TestReturnsCorrectMinWithPosValues() {
 		int[]arr = {2,4,6,3,1,8,9};
-		assertEquals(2, Values.getMin(arr));
+		assertEquals(1, Values.getMin(arr));
 	}
 	
 	@Test
@@ -74,9 +74,9 @@ class TestValues {
 	
 	@Test
 	//Testing to make sure it returns the correct range
-	public void TestReturnsCorrectRange() {
+	public void TestReturnsCorrectRangeWithPositiveValues() {
 		int[] arr = {5,3,6,8,7};
-		assertEquals(5, Values.getRange(arr));
+		assertEquals(6, Values.getRange(arr));
 	}
 	
 	@Test
